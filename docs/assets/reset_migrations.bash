@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 rm -R -f ./migrations &&
 pipenv run init &&
 dropdb -h localhost -U gitpod example || true &&
